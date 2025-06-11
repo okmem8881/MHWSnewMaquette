@@ -1,0 +1,126 @@
+
+body{
+background-color: #ffffff;
+}
+
+#spb{
+ background-color: #00071A;
+
+    <!-- background-image: url(https://medihub.pro/static/MediHub.png); -->
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    margin: 0px;
+    overflow: hidden;
+    height: 530px;
+}
+#traitbleu
+{
+height:30px;
+background-color:#1B189F;
+border:1px solid black;
+
+}
+#login
+{
+
+height: 370px;
+width: 700px;
+border:2px solid white;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+border-radius: 30px;
+overflow: hidden;
+
+
+}
+footer{
+position: absolute;
+bottom: 0px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+#logo
+{
+   
+width: 300px;
+margin-top: 50%;
+margin-left: 50%;
+transform: translate(-50%, -50%);
+}
+#cadre1
+{
+height: 100%;
+width: 49.5%; 
+
+border:2px solid black;
+float: left;
+background: rgba(0,7,26,0.8);
+
+}
+#cadre2
+{
+height: 100%;
+width: 49.9%; 
+float: left;
+
+background: white;
+
+
+}
+.image-btn{ background: none; border: none; padding: 0; }
+.image-btn img{ display: block;float:left; width:20px;/* to remove extra space below image */ }
+.image-btn #lang { float:right; margin-left:10px;}
+#lang-bar{margin-right: 10px;}
+/*VERTICAL MENU*/
+.vertical{
+  position:absolute;
+  
+  width:200px;
+  top: 50px;
+  left:50px;
+}
+
+/* ALL UL */
+.vertical ul{
+  list-style: none;
+}
+/* ALL LI */
+.vertical li{
+  position:relative;
+}
+/* ALL A */
+.vertical a{
+  display:block;
+  color:black;
+  text-decoration:none;
+  padding:10px 15px;
+  transition:0.2s;
+}
+/* ALL A HOVER */
+.vertical li:hover > a{
+  
+}
+
+/* INNER UL HIDE */
+.vertical ul ul{
+  
+  padding-left:0px;
+  transition: max-height 0.2s ease-out;
+  max-height:0;
+  overflow:hidden;
+}
+/* INNER UL SHOW */
+.vertical li:hover > ul{
+  max-height:500px;
+  transition: max-height 0.25s ease-in;
+}
+form{
+
+margin-top: 50%;
+margin-left: 50%;
+transform: translate(-50%, -50%);
+}
+
